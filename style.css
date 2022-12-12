@@ -1,0 +1,210 @@
+html body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.65;
+    padding-top: 2000;
+
+}
+
+div {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+
+}
+
+.top {
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(253, 214, 42);
+    position: fixed;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.top2 {
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(253, 133, 42);
+    position: fixed;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+margin-top: 200px;
+
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    border-radius: 5px;
+}
+
+.hero {
+    margin: 1px 10px 0px;
+    height: 500px;
+    background-color: rgb(255, 31, 6);
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.img-bayangan {
+    background: image('img-8115.jpg');
+
+}
+
+.about {
+    margin: 1px 10px 0px;
+    height: 500px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+}
+.galery {
+    margin: 1px 10px 0px;
+    height: 600px;
+    background-color: rebeccapurple;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: orangered;
+}
+.skil {
+    margin: 1px 10px 0px;
+    height: 200px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    color: orangered;
+}
+.contact {
+    margin: 1px 10px 0px;
+    height: 200px;
+    background-color:  rebeccapurple;
+    border-radius: 5px;
+    color: orangered;
+}
+
+
+/*bagian navigasi */
+
+.navbar {
+    margin: 1px 10px 0px;
+    display: flex;
+    height: 50px;
+    justify-content: left;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+.li-navbar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    display: inline;
+
+}
+
+.li-navbar:hover {
+    background-color: rgb(255, 181, 43);
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 5px;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.a-navbar-warna {
+    color: orangered;
+    text-decoration: none;
+}
+
+/*stop bagian navigasi */
+
+/*bagian hero */
+.poto-bener {
+    width: 200px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 100px;
+    
+}
+
+.img-bayangan {
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 20px rgb(255, 95, 95);
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 100px;
+    background-color: whitesmoke;
+    margin: 100px auto 5px;
+}
+
+/*stop bagian hero */
+
+/*about*/
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding: 5px;
+    margin: 0px 60px 0px;
+}
+
+/*stop about */
+
+/*skil */
+.logo {
+    width: 50px;
+}
+
+.logo1{
+    background-color: white;
+    width: 50px;
+}
+
+/*stop skil */
+
+/*skil */
+.mypoto {
+    width: 200px;
+    border-radius: 0%;
+    margin: 5px;
+    padding: 2px;
+    border: 10px solid whitesmoke;
+    box-sizing: border-box;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/*stop skil */
+
+.footer {
+    margin: 1px 10px 0px;
+    background-color: rgb(249, 13, 13);
+    height: 60px;
+
+}
